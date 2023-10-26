@@ -1,0 +1,25 @@
+@font-face {
+    font-family: apple;
+    src: url(/font/font/sf-pro-font/sf-pro-text_regular.woff2) format(woff2);
+  }
+
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 12px;
+}
+body {
+    font-family: 'apple', sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
