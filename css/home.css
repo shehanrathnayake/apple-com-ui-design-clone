@@ -109,6 +109,7 @@ main {
 #vision-pro {
     background-image: url(../img/vision-pro-image.jpg);
     justify-content: flex-end;
+    gap: 10px;
 }
 
 #ipad {
@@ -119,16 +120,19 @@ main {
 #pay-later {
     background-image: url(../img/card-background.jpg);
     justify-content: flex-start;
+    gap: 10px;
 }
 
 #tradein {
     background-image: url(../img/tradein-background.jpg);
     justify-content: flex-start;
+    gap: 10px;
 }
 
 #card {
     background-image: url(../img/card-background.jpg);
     justify-content: flex-start;
+    gap: 10px;
 }
 
 #footnotes {
@@ -219,8 +223,6 @@ footer {
 }
 
 #footer-lower div ul li::after {
-    /* content: "&nbsp;&nbsp;&nbsp;&nbsp|&nbsp;&nbsp;&nbsp;&nbsp"; */
-    /* content: &nbsp;&nbsp;&nbsp;&nbsp"|"; */
     content: "|";
 }
 
