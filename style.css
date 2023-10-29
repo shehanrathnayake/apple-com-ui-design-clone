@@ -7,7 +7,7 @@
     box-sizing: border-box;
 
     --primary-color: #121212;
-    --secondary-color: #F5F5F5;
+    --secondary-color: #F5F5F7;
     --link-color: #0066CC;
 }
 
@@ -32,4 +32,10 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 1.5;
+    color: #6E6E73;
 }
