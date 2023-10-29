@@ -235,3 +235,13 @@ footer {
 #footer-lower a:hover {
     text-decoration: underline;
 }
+
+#watermark {
+    position: fixed;
+    font-size: 40px;
+    color: yellow;
+    opacity: 20%;
+    font-weight: 700;
+    right: 15px;
+    bottom: 250px;
+}
