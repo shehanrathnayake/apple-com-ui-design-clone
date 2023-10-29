@@ -1,25 +1,35 @@
 @font-face {
-    font-family: apple;
+    font-family: 'apple';
     src: url(/font/font/sf-pro-font/sf-pro-text_regular.woff2) format(woff2);
   }
 
-* {
+:root {
     box-sizing: border-box;
 
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+    --link-color: #0066CC;
 }
 
 html {
     font-size: 12px;
 }
+
 body {
     font-family: 'apple', sans-serif;
+    width: 100%;
 }
 
 h2 {
     font-size: 4rem;
     font-weight: 600;
 }
+
 h3 {
     font-size: 2rem;
     font-weight: 400;
+}
+
+h4 {
+    font-size: 1.5rem;
 }

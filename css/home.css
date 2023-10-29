@@ -1,32 +1,129 @@
 header {
     width: 100%;
-    height: 40px;
-    background-color: #121212;
+    height: 40px;background-color: var(--primary-color);
+    color: #CFCFD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
 }
-header nav {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+
 header nav ul {
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
-header nav ul li {
-    color: #b5b5b5;
-    float: left;
-    top: 50%;
-    margin-right: 20px;
-    font-size: 1rem;
-    
+
+.bi-apple,
+.bi-search,
+.bi-bag {
+    font-size: 1.2rem;
 }
+
 header nav ul li:hover {
     cursor: pointer;
 }
 
 main {
+    width: 100%;
     padding-top: 40px;
+}
+
+.hero {
+    height: 736px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero h2 {
+    padding-top: 40px;
+}
+
+.hero h3 {
+    margin-top: 10px;
+}
+
+.hero   h2,
+        h3 {
+    text-align: center;
+}
+
+.learn {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.6rem;
+    /* letter-spacing: 1px; */
+    
+}
+
+.learn a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+#iphone-15-pro {
+    background-image: url(../img/hero-apple-iphone-15pro.jpg);
+    color: white;
+}
+
+#iphone-15 {
+    background-image: url(../img/hero-apple-iphone-15.jpg);
+}
+#iwatch {
+    background-image: url(../img/hero-apple-watch.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#iwatch img {
+    width: 200px;
+    margin: 40px 0 20px 0;
+}
+
+.features {
+    display: flex;
+    height: 580px;
+
+}
+
+.feature-items {
+    width: calc(50% - 15px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vision-pro {
+    background-image: url(../img/vision-pro-image.jpg);
+    justify-content: flex-end;
+}
+
+#ipad {
+    background-image: url(../img/ipad-background.jpg);
+    justify-content: flex-start;
+}
+
+#pay-later {
+    background-image: url(../img/card-background.jpg);
+    justify-content: flex-start;
+}
+
+#tradein {
+    background-image: url(../img/tradein-background.jpg);
+    justify-content: flex-start;
+}
+
+#card {
+    background-image: url(../img/card-background.jpg);
+    justify-content: flex-start;
 }
