@@ -13,9 +13,10 @@ header nav {
 }
 
 header nav ul {
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .bi-apple,
