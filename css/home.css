@@ -145,3 +145,91 @@ main {
 #footnotes .container a {
     color: #6E6E73;
 }
+
+#footer-upper,
+#footer-lower {
+    width: 1024px;
+    border-top: 1px solid #6E6E73;
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+#footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#footer-links .col h5 {
+    padding-bottom: 10px;
+    color: #1D1D1F;
+}
+
+#footer-links .col ul li {
+    padding-bottom: 10px;
+}
+
+#footer-links .col ul li a {
+    text-decoration: none;
+    color: #424245;
+}
+
+#footer-links .col ul li a:hover {
+    text-decoration: underline
+}
+
+#shop-more-ways {
+    padding-top: 20px;
+    color: #6E6E73;
+}
+
+#shop-more-ways a {
+    color: var(--link-color);
+}
+
+#footer-lower {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#footer-lower div {
+    display: flex;
+    gap: 30px;
+}
+
+#footer-lower div span {
+    color: #6E6E73;
+}
+
+#footer-lower div ul {
+    display: flex;
+    gap: 20px;
+}
+
+#footer-lower div ul li a {
+    text-decoration: none;
+    color: #6E6E73;
+}
+
+#footer-lower div ul li::after {
+    /* content: "&nbsp;&nbsp;&nbsp;&nbsp|&nbsp;&nbsp;&nbsp;&nbsp"; */
+    /* content: &nbsp;&nbsp;&nbsp;&nbsp"|"; */
+    content: "|";
+}
+
+#footer-lower a {
+    color: #424245;
+    text-decoration: none;
+}
+
+#footer-lower div ul li a:hover,
+#footer-lower a:hover {
+    text-decoration: underline;
+}
